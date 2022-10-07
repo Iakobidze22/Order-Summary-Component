@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>order-summary-component</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #e0e8ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      font-family: "Outfit", sans-serif;
+    }
+    .box {
+      width: 327px;
+      background-color: white;
+      height: 567px;
+      box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+      border-radius: 20px;
+    }
+    .imagehero {
+      max-width: 100%;
+      margin-bottom: 20.58px;
+      border-radius: 20px 20px 0px 0px;
+    }
+    .ordersummary {
+      color: #1f2e55;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 22px;
+      line-height: 29px;
+      text-align: center;
+      margin-bottom: 16px;
+      font-family: "Outfit", sans-serif;
+    }
+    .description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #717fa6;
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-bottom: 24px;
+      font-family: "Outfit", sans-serif;
+    }
+    .aboxinabox {
+      width: 279px;
+      height: 81px;
+      background-color: #f7f9ff;
+      border-radius: 11px;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-between;
+    }
+    .musicimage {
+      margin-left: 20px;
+      margin-top: 3px;
+      flex-direction: row;
+    }
+    .aboxinaboxblue {
+      background-color: #382ae1;
+      box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+      border-radius: 11px;
+      width: 279px;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .proceedtopayment {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 20px;
+      color: white;
+      font-family: "Outfit", sans-serif;
+      text-align: center;
+    }
+    .cancelorder {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 20px;
+      color: #717fa6;
+      font-family: "Outfit", sans-serif;
+      text-align: center;
+      margin-top: 24px;
+    }
+    .title {
+      font-family: "Outfit", sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 19px;
+      color: #1f2e55;
+      margin-bottom: 2px;
+      margin-left: -20px;
+    }
+    .price {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+      color: #717fa6;
+      margin-top: 1px;
+      margin-left: -35px;
+    }
+    .change {
+      font-family: "Outfit", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 17px;
+      text-decoration-line: underline;
+      margin-right: 6px;
+      color: #382ae1;
+    }
+    .column123 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  </style>
+  <body>
+    <div class="box">
+      <div class="main-image">
+        <img src="./illustration-hero.svg" class="imagehero" />
+        <h1 class="ordersummary">
+          Order Summary
+        </h1>
+        <h1 class="description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </h1>
+        <div class="aboxinabox">
+          <img src="./icon-music.svg" class="musicimage" />
+          <div class="column123">
+            <p class="title">Annual Plan</p>
+            <p class="price">$59.99/year</p>
+          </div>
+          <span class="change"> change </span>
+        </div>
+        <div class="aboxinaboxblue">
+          <h1 class="proceedtopayment">Proceed to Payment</h1>
+        </div>
+        <h1 class="cancelorder">
+          Cancel Order
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>
